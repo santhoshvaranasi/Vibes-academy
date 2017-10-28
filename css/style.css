@@ -1,0 +1,66 @@
+@import "compass/css3";
+
+.listParent{
+  height: 90%;
+  overflow: auto;
+  text-overflow: ellipsis;
+}
+.wrapper {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;  
+  
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  align-items: center;
+  font-weight: bold;
+  text-align: center;
+}
+
+.wrapper > * {
+  padding: 10px;
+  flex: 1 100%;
+}
+
+.header {
+  color: white;
+  background: rgb(39, 37, 36);
+}
+
+.footer {
+  color: white;
+  background: rgb(30, 31, 30);
+}
+
+.main {
+  height: 90%;
+  background: rgb(244, 246, 247);
+}
+
+.aside-1 {
+  padding: 0;
+  background: rgb(226, 225, 225);
+}
+
+.aside-2 {
+  padding: 0;
+  background: rgb(252, 251, 251);
+}
+
+@media all and (min-width: 600px) {
+  .aside { flex: 1 auto; }
+}
+
+@media all and (min-width: 800px) {
+  .main    { flex: 5 0px; }
+  .aside-1 { order: 1; } 
+  .main    { order: 2; }
+  .aside-2 { order: 3; }
+  .footer  { order: 4; }
+}
+
+body {
+  /* padding: 2em;  */
+}
