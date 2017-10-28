@@ -1,4 +1,10 @@
-@import "compass/css3";
+
+
+.video-box{
+  width: 700;
+  height: 300;
+  /* flex: .5; */
+}
 
 .listParent{
   height: 90%;
@@ -36,6 +42,14 @@
 
 .main {
   height: 90%;
+  width: inherit;
+  display: flex;  
+  justify-content: center;
+  align-content: center;
+  resize: both;
+  overflow: auto;
+  margin: 0 auto;
+  padding: 20px;
   background: rgb(244, 246, 247);
 }
 
