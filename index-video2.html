@@ -1,42 +1,21 @@
 <html>
+
 <head>
   <title>Welcome to Vibes</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="../Vibes-academy/css/style.css" />
 </head>
+
 <body>
-<div class="container">
-  <header class="header">
-      <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-        <h4 style="color:white; padding-left: 16%;">Welcome to Vibes</h4>
-      </nav>
-  </header>
-</div>
-
-
-  <div class="col-lg-12" style="height: 93%;background-color: floralwhite;padding-top:3.8%;display: inline-flex;padding-left: 0px;padding-right: 0px;">
-      <div class="col-lg-2" style="background-color: lightgrey;display: table;">
-          <div style="display: table-caption;height: 100%">
-            <ul class="list-group" style="overflow: auto;height: 100%">
-                <li class="list-group-item">Chapter 1</li>
-                <li class="list-group-item">Chapter 2</li>
-                <li class="list-group-item">Chapter 3</li>
-                <li class="list-group-item">Chapter 4</li>
-                <li class="list-group-item">Chapter 5</li>
-                <li class="list-group-item">Chapter 6</li>
-                <li class="list-group-item">Chapter 7</li>
-                <li class="list-group-item">Chapter 8</li>
-                <li class="list-group-item">Chapter 9</li>
-                <li class="list-group-item">Chapter 10</li>
-                <li class="list-group-item">Chapter 11</li>
-                <li class="list-group-item">Chapter 12</li>
-            </ul>
-          </div>
-      </div>
-      <div class="col-lg-8" style="background-color: floralwhite;padding-top: 30px">
-          <h4 style="padding-left: 17%;">Lecture 2</h4>
-            <video width="725" height="400" controls style="padding-left: 17%">
-                <source src="C:/Users/ALEKHYA/Desktop/Vibes Academy/videos/video4.mp4" type="video/mp4">
-                <source src="C:/Users/ALEKHYA/Desktop/Vibes Academy/videos/video4.ogg" type="video/ogg">
+  <div class="wrapper">
+    <header class="header">Header</header>
+    <article class="main">
+      <div  style="background-color: floralwhite;padding-top: 30px">
+          <h4 style="padding-left: 3%;">Lecture 2</h4>
+            <video width="725" height="400" controls style="padding-left: 3%;padding-right:3%;">
+                <source src="C:/Users/ALEKHYA/Desktop/Vibes Academy/videos/video2.mp4" type="video/mp4">
+                <source src="C:/Users/ALEKHYA/Desktop/Vibes Academy/videos/video2.ogg" type="video/ogg">
                         Your browser does not support the video tag.
             </video>
           <div>
@@ -45,33 +24,225 @@
                
           </div>
       </div>
-      <div class="col-lg-2" style="background-color:lightgrey;display: table;">
-        <div style="display: table-caption;height: 100%">
-            <ul class="list-group" style="overflow: auto;height: 100%">
-                <li class="list-group-item">Related topic 1</li>
-                <li class="list-group-item">Related Topic 2</li>
-                <li class="list-group-item">Related Topic 3</li>
-                <li class="list-group-item">Related Topic 4</li>
-                <li class="list-group-item">Related Topic 5</li>
-                <li class="list-group-item">Related Topic 6</li>
-                <li class="list-group-item">Related Topic 7</li>
-                <li class="list-group-item">Related Topic 8</li>
-                <li class="list-group-item">Related Topic 9</li>
-                <li class="list-group-item">Related Topic 10</li>
-                <li class="list-group-item">Related Topic 11</li>
-                <li class="list-group-item">Related Topic 12</li>
-            </ul>
-          </div>
-      </div>
+    </article>
 
+    <aside class="aside aside-1">
+          <ul class="list-group listParent">
+            <li class="list-group-item">
+              <a data-toggle="collapse" href="#collapse1">Chapter 1</a>
+				<div id="collapse1"style="font-size:80%;" class="panel-collapse collapse">
+					<ul class="list-group">
+							<a href="#" <li class="list-group-item">Topic One</li></a>
+							<a href="#"<li class="list-group-item">Topic Two</li></a>
+							<a href="#"<li class="list-group-item">Topic Three</li></a>
+					</ul>
+				</div>
+            </li>
+
+            <li class="list-group-item">
+              <a data-toggle="collapse" href="#collapse2">Chapter 2</a>
+			  <div id="collapse2" style="font-size:80%;" class="panel-collapse collapse">
+					<ul class="list-group">
+							<a href="#" <li class="list-group-item">Topic One</li></a>
+							<a href="#"<li class="list-group-item">Topic Two</li></a>
+							<a href="#"<li class="list-group-item">Topic Three</li></a>
+					</ul>
+				</div>
+            </li>
+
+            <li class="list-group-item">
+              <a data-toggle="collapse" href="#collapse3">Chapter 3</a>
+			  <div id="collapse3"  style="font-size:80%;" class="panel-collapse collapse">
+					<ul class="list-group">
+							<a href="#" <li class="list-group-item">Topic One</li></a>
+							<a href="#"<li class="list-group-item">Topic Two</li></a>
+							<a href="#"<li class="list-group-item">Topic Three</li></a>
+					</ul>
+				</div>
+            </li>
+
+            <li class="list-group-item">
+              <a data-toggle="collapse" href="#collapse4">Chapter 4</a>
+			  <div id="collapse4" style="font-size:80%;" class="panel-collapse collapse">
+					<ul class="list-group">
+							<a href="#" <li class="list-group-item">Topic One</li></a>
+							<a href="#"<li class="list-group-item">Topic Two</li></a>
+							<a href="#"<li class="list-group-item">Topic Three</li></a>
+					</ul>
+				</div>
+            </li>
+
+            <li class="list-group-item">
+              <a data-toggle="collapse" href="#collapse5">Chapter 5</a>
+			  <div id="collapse5" style="font-size:80%;" class="panel-collapse collapse">
+					<ul class="list-group">
+							<a href="#" <li class="list-group-item">Topic One</li></a>
+							<a href="#"<li class="list-group-item">Topic Two</li></a>
+							<a href="#"<li class="list-group-item">Topic Three</li></a>
+					</ul>
+				</div>
+            </li>
+
+            <li class="list-group-item">
+              <a data-toggle="collapse" href="#collapse6">Chapter 6</a>
+			  <div id="collapse6" style="font-size:80%;" class="panel-collapse collapse">
+					<ul class="list-group">
+							<a href="#" <li class="list-group-item">Topic One</li></a>
+							<a href="#"<li class="list-group-item">Topic Two</li></a>
+							<a href="#"<li class="list-group-item">Topic Three</li></a>
+					</ul>
+				</div>
+            </li>
+
+            <li class="list-group-item">
+              <a data-toggle="collapse" href="#collapse7">Chapter 7</a>
+			  <div id="collapse7" style="font-size:80%;" class="panel-collapse collapse">
+					<ul class="list-group">
+							<a href="#" <li class="list-group-item">Topic One</li></a>
+							<a href="#"<li class="list-group-item">Topic Two</li></a>
+							<a href="#"<li class="list-group-item">Topic Three</li></a>
+					</ul>
+				</div>
+            </li>
+
+            <li class="list-group-item">
+              <a data-toggle="collapse" href="#collapse8">Chapter 8</a>
+			  <div id="collapse8" style="font-size:80%;" class="panel-collapse collapse">
+					<ul class="list-group">
+							<a href="#" <li class="list-group-item">Topic One</li></a>
+							<a href="#"<li class="list-group-item">Topic Two</li></a>
+							<a href="#"<li class="list-group-item">Topic Three</li></a>
+					</ul>
+				</div>
+            </li>
+
+            <li class="list-group-item">
+              <a data-toggle="collapse" href="#collapse9">Chapter 9</a>
+			  <div id="collapse9" style="font-size:80%;" class="panel-collapse collapse">
+					<ul class="list-group">
+							<a href="#" <li class="list-group-item">Topic One</li></a>
+							<a href="#"<li class="list-group-item">Topic Two</li></a>
+							<a href="#"<li class="list-group-item">Topic Three</li></a>
+					</ul>
+				</div>
+            </li>
+
+            <li class="list-group-item">
+              <a data-toggle="collapse" href="#collapse10">Chapter 10</a>
+			  <div id="collapse10" style="font-size:80%;" class="panel-collapse collapse">
+					<ul class="list-group">
+							<a href="#" <li class="list-group-item">Topic One</li></a>
+							<a href="#"<li class="list-group-item">Topic Two</li></a>
+							<a href="#"<li class="list-group-item">Topic Three</li></a>
+					</ul>
+				</div>
+            </li>
+
+            <li class="list-group-item">
+              <a data-toggle="collapse" href="#collapse11">Chapter 11</a>
+			  <div id="collapse11" style="font-size:80%;" class="panel-collapse collapse">
+					<ul class="list-group">
+							<a href="#" <li class="list-group-item">Topic One</li></a>
+							<a href="#"<li class="list-group-item">Topic Two</li></a>
+							<a href="#"<li class="list-group-item">Topic Three</li></a>
+					</ul>
+				</div>
+            </li>
+
+            <li class="list-group-item">
+              <a href="">Chapter 12</a>
+            </li>
+
+            <li class="list-group-item">
+              <a href="">Chapter 13</a>
+            </li>
+
+            <li class="list-group-item">
+              <a href="">Chapter 14</a>
+            </li>
+
+            <li class="list-group-item">
+              <a href="">Chapter 15</a>
+            </li>
+
+            <li class="list-group-item">
+              <a href="">Chapter 16</a>
+            </li>
+
+            <li class="list-group-item">
+              <a href="">Chapter 17</a>
+            </li>
+
+            <li class="list-group-item">
+              <a href="">Chapter 18</a>
+            </li>
+
+          </ul>
+    </aside>
+
+    <aside class="aside aside-2">
+      <ul class="list-group listParent">
+        <li class="list-group-item">
+          <a href="">Related-Topic 1</a>
+        </li>
+
+        <li class="list-group-item">
+          <a href="">Related-Topic 2</a>
+        </li>
+
+        <li class="list-group-item">
+          <a href="">Related-Topic 3</a>
+        </li>
+
+        <li class="list-group-item">
+          <a href="">Related-Topic 4</a>
+        </li>
+
+        <li class="list-group-item">
+          <a href="">Related-Topic 5</a>
+        </li>
+
+        <li class="list-group-item">
+          <a href="">Related-Topic 6</a>
+        </li>
+
+        <li class="list-group-item">
+          <a href="">Related-Topic 7</a>
+        </li>
+
+        <li class="list-group-item">
+          <a href="">Related-Topic 8</a>
+        </li>
+
+        <li class="list-group-item">
+          <a href="">Related-Topic 9</a>
+        </li>
+
+        <li class="list-group-item">
+          <a href="">Related-Topic 10</a>
+        </li>
+
+        <li class="list-group-item">
+          <a href="">Related-Topic 11</a>
+        </li>
+
+        <li class="list-group-item">
+          <a href="">Related-Topic 12</a>
+        </li>
+
+        
+
+
+      </ul>
+    </aside>
+    <footer class="footer">Footer</footer>
   </div>
 
-  <footer class="footer navbar navbar-expand-md navbar-dark bg-dark" style="color:white;">
-        <p style="padding-left: 80%;">@Copyright Vibes Academy</p>
-  </footer>
-</div>
-  <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.5/umd/popper.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
