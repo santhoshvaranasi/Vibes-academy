@@ -42,7 +42,13 @@
   height: 90%;
   background: rgb(244, 246, 247);
 }
-
+span{
+  padding-top: 3px;
+}
+.breadcrumb{
+  padding:  4px 4px;
+  margin-bottom: 0px;
+}
 .aside-1 {
   padding: 0;
   background: rgb(226, 225, 225);
