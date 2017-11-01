@@ -26,12 +26,16 @@
 
 .header {
   color: white;
-  background: rgb(39, 37, 36);
+  background: #003466;
+  height:10%;
+  font-size: 25px;
 }
-
+.list-group-item{
+  background-color: gainsboro;
+}
 .footer {
   color: white;
-  background: rgb(30, 31, 30);
+  background: #003466;
 }
 
 .main {
