@@ -20,18 +20,19 @@
 }
 
 .wrapper > * {
-  padding: 10px;
+ /* padding: 10px;*/
   flex: 1 100%;
 }
 
 .header {
   color: white;
   background: #003466;
+  padding-top: 1%;
   height:10%;
   font-size: 25px;
 }
 .list-group-item{
-  background-color: gainsboro;
+  background-color: #ffed90;
 }
 .footer {
   color: white;
@@ -45,8 +46,14 @@
 span{
   padding-top: 3px;
 }
+nav{
+  /*padding-top: 10px;*/
+  padding-left: 8%;
+}
 .breadcrumb{
-  padding:  4px 4px;
+  height:50px;
+  background: #ffed90;
+ /* padding:  4px 4px;*/
   margin-bottom: 0px;
 }
 .aside-1 {
