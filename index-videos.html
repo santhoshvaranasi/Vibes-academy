@@ -9,89 +9,179 @@
 
 <body>
   <div class="wrapper">
-    <header class="header">Header</header>
-    <article class="main">
-      <div style="padding-top: 100;padding-left: 0;padding-right: 0;">
-          <video controls class="video-box">
-              <source src="../Vibes-Academy/videos/Shaun-the-Sheep-The-Movie-Official-Trailer.mp4" type="video/mp4">
-          </video>
-          <div style="float: left; padding-left: 10%;" ><a href=""> << Previous </a></div>
-          <div style="float:right; padding-right: 10%;"><a href="index-video2.html" > Next >> </a></div>
+    <header class="header">Vibes Academy</header>
+    
+    <article class="main" style="background-color: #fbf0f0;">
+      <nav class="breadcrumb" style="padding left: 20%;">You are here >
+  <a class="breadcrumb-item" href="#">Home</a>
+  <a class="breadcrumb-item" href="#">Chapter 1</a>
+  <a class="breadcrumb-item" href="#">Lecture 1</a>
+  <!--<span class="breadcrumb-item active">Bootstrap</span>-->
+</nav>
+      <div  style="padding-top: 30px">
+          <h4 style="padding-left: 3%;">Simple Pendulum</h4>
+            <video width="725" height="400" controls style="padding-left: 3%;padding-right:3%;">
+                <source src="../Vibes-academy/videos/2_1_simple_pendulum_01.mp4" type="video/mp4">
+                <source src="../Vibes-academy/videos/2_1_simple_pendulum_01.ogg" type="video/ogg">
+                        Your browser does not support the video tag.
+            </video>
+          <div>
+                <div style="float: left; padding-left: 10%;" ><a href="" > << Previous </a></div>
+                <div style="float:right; padding-right: 10%;"><a href="index-video2.html" > Next >> </a></div>
+               
+          </div>
       </div>
     </article>
 
     <aside class="aside aside-1">
-          <ul class="list-group listParent">
+          <ul class="list-group listParent" id="chapters">
             <li class="list-group-item">
-              <a href="http://fb.com/moinakbarali">Articles</a>
+                   <a data-toggle="collapse" data-parent="#chapters" href="#collapse1">Chapter 1</a>
+				<div id="collapse1" style="font-size:80%;" class="panel-collapse collapse in">
+					<ul class="list-group"> 
+							<a href="#" <li class="list-group-item">Topic One</li></a>
+							<a href="#"<li class="list-group-item">Topic Two</li></a>
+							<a href="#"<li class="list-group-item">Topic Three</li></a>
+					</ul>
+				</div>
             </li>
 
             <li class="list-group-item">
-              <a href="http://fb.com/moinakbarali">News</a>
+              <a data-toggle="collapse" data-parent="#chapters" href="#collapse2">Chapter 2</a>
+			  <div id="collapse2" style="font-size:80%;" class="panel-collapse collapse">
+					<ul class="list-group">
+							<a href="#" <li class="list-group-item">Topic One</li></a>
+							<a href="#"<li class="list-group-item">Topic Two</li></a>
+							<a href="#"<li class="list-group-item">Topic Three</li></a>
+					</ul>
+				</div>
             </li>
 
             <li class="list-group-item">
-              <a href="http://fb.com/moinakbarali">Newsletters</a>
+              <a data-toggle="collapse" data-parent="#chapters" href="#collapse3">Chapter 3</a>
+			  <div id="collapse3" style="font-size:80%;" class="panel-collapse collapse">
+					<ul class="list-group">
+							<a href="#" <li class="list-group-item">Topic One</li></a>
+							<a href="#"<li class="list-group-item">Topic Two</li></a>
+							<a href="#"<li class="list-group-item">Topic Three</li></a>
+					</ul>
+				</div>
             </li>
 
             <li class="list-group-item">
-              <a href="http://fb.com/moinakbarali">Comments</a>
+              <a data-toggle="collapse" data-parent="#chapters" href="#collapse4">Chapter 4</a>
+			  <div id="collapse4" style="font-size:80%;" class="panel-collapse collapse">
+					<ul class="list-group">
+							<a href="#" <li class="list-group-item">Topic One</li></a>
+							<a href="#"<li class="list-group-item">Topic Two</li></a>
+							<a href="#"<li class="list-group-item">Topic Three</li></a>
+					</ul>
+				</div>
             </li>
 
             <li class="list-group-item">
-              <a href="http://fb.com/moinakbarali">Articles</a>
+              <a data-toggle="collapse" data-parent="#chapters" href="#collapse5">Chapter 5</a>
+			  <div id="collapse5" style="font-size:80%;" class="panel-collapse collapse">
+					<ul class="list-group">
+							<a href="#" <li class="list-group-item">Topic One</li></a>
+							<a href="#"<li class="list-group-item">Topic Two</li></a>
+							<a href="#"<li class="list-group-item">Topic Three</li></a>
+					</ul>
+				</div>
             </li>
 
             <li class="list-group-item">
-              <a href="http://fb.com/moinakbarali">News</a>
+              <a data-toggle="collapse" data-parent="#chapters" href="#collapse6">Chapter 6</a>
+			  <div id="collapse6" style="font-size:80%;" class="panel-collapse collapse">
+					<ul class="list-group">
+							<a href="#" <li class="list-group-item">Topic One</li></a>
+							<a href="#"<li class="list-group-item">Topic Two</li></a>
+							<a href="#"<li class="list-group-item">Topic Three</li></a>
+					</ul>
+				</div>
             </li>
 
             <li class="list-group-item">
-              <a href="http://fb.com/moinakbarali">Newsletters</a>
+              <a data-toggle="collapse" data-parent="#chapters" href="#collapse7">Chapter 7</a>
+			  <div id="collapse7" style="font-size:80%;" class="panel-collapse collapse">
+					<ul class="list-group">
+							<a href="#" <li class="list-group-item">Topic One</li></a>
+							<a href="#"<li class="list-group-item">Topic Two</li></a>
+							<a href="#"<li class="list-group-item">Topic Three</li></a>
+					</ul>
+				</div>
             </li>
 
             <li class="list-group-item">
-              <a href="http://fb.com/moinakbarali">Comments</a>
+              <a data-toggle="collapse" data-parent="#chapters" href="#collapse8">Chapter 8</a>
+			  <div id="collapse8" style="font-size:80%;" class="panel-collapse collapse">
+					<ul class="list-group">
+							<a href="#" <li class="list-group-item">Topic One</li></a>
+							<a href="#"<li class="list-group-item">Topic Two</li></a>
+							<a href="#"<li class="list-group-item">Topic Three</li></a>
+					</ul>
+				</div>
             </li>
 
             <li class="list-group-item">
-              <a href="http://fb.com/moinakbarali">Articles</a>
+              <a data-toggle="collapse" data-parent="#chapters" href="#collapse9">Chapter 9</a>
+			  <div id="collapse9"style="font-size:80%;" class="panel-collapse collapse">
+					<ul class="list-group">
+							<a href="#" <li class="list-group-item">Topic One</li></a>
+							<a href="#"<li class="list-group-item">Topic Two</li></a>
+							<a href="#"<li class="list-group-item">Topic Three</li></a>
+					</ul>
+				</div>
             </li>
 
             <li class="list-group-item">
-              <a href="http://fb.com/moinakbarali">News</a>
+              <a data-toggle="collapse" data-parent="#chapters" href="#collapse10">Chapter 10</a>
+			  <div id="collapse10" style="font-size:80%;" class="panel-collapse collapse">
+					<ul class="list-group">
+							<a href="#" <li class="list-group-item">Topic One</li></a>
+							<a href="#"<li class="list-group-item">Topic Two</li></a>
+							<a href="#"<li class="list-group-item">Topic Three</li></a>
+					</ul>
+				</div>
             </li>
 
             <li class="list-group-item">
-              <a href="http://fb.com/moinakbarali">Newsletters</a>
+              <a data-toggle="collapse" data-parent="#chapters" href="#collapse11">Chapter 11</a>
+			  <div id="collapse11" style="font-size:80%;" class="panel-collapse collapse">
+					<ul class="list-group">
+							<a href="#" <li class="list-group-item">Topic One</li></a>
+							<a href="#"<li class="list-group-item">Topic Two</li></a>
+							<a href="#"<li class="list-group-item">Topic Three</li></a>
+					</ul>
+				</div>
             </li>
 
             <li class="list-group-item">
-              <a href="http://fb.com/moinakbarali">Comments</a>
+              <a href="">Chapter 12</a>
             </li>
 
             <li class="list-group-item">
-              <a href="http://fb.com/moinakbarali">News</a>
+              <a href="">Chapter 13</a>
             </li>
 
             <li class="list-group-item">
-              <a href="http://fb.com/moinakbarali">Newsletters</a>
+              <a href="">Chapter 14</a>
             </li>
 
             <li class="list-group-item">
-              <a href="http://fb.com/moinakbarali">Comments</a>
+              <a href="">Chapter 15</a>
             </li>
 
             <li class="list-group-item">
-              <a href="http://fb.com/moinakbarali">News</a>
+              <a href="">Chapter 16</a>
             </li>
 
             <li class="list-group-item">
-              <a href="http://fb.com/moinakbarali">Newsletters</a>
+              <a href="">Chapter 17</a>
             </li>
 
             <li class="list-group-item">
-              <a href="http://fb.com/moinakbarali">Comments</a>
+              <a href="">Chapter 18</a>
             </li>
 
           </ul>
@@ -100,76 +190,55 @@
     <aside class="aside aside-2">
       <ul class="list-group listParent">
         <li class="list-group-item">
-          <a href="http://fb.com/moinakbarali">Articles</a>
+          <a href="">Related-Topic 1</a>
         </li>
 
         <li class="list-group-item">
-          <a href="http://fb.com/moinakbarali">News</a>
+          <a href="">Related-Topic 2</a>
         </li>
 
         <li class="list-group-item">
-          <a href="http://fb.com/moinakbarali">Newsletters</a>
+          <a href="">Related-Topic 3</a>
         </li>
 
         <li class="list-group-item">
-          <a href="http://fb.com/moinakbarali">Comments</a>
+          <a href="">Related-Topic 4</a>
         </li>
 
         <li class="list-group-item">
-          <a href="http://fb.com/moinakbarali">Articles</a>
+          <a href="">Related-Topic 5</a>
         </li>
 
         <li class="list-group-item">
-          <a href="http://fb.com/moinakbarali">News</a>
+          <a href="">Related-Topic 6</a>
         </li>
 
         <li class="list-group-item">
-          <a href="http://fb.com/moinakbarali">Newsletters</a>
+          <a href="">Related-Topic 7</a>
         </li>
 
         <li class="list-group-item">
-          <a href="http://fb.com/moinakbarali">Comments</a>
+          <a href="">Related-Topic 8</a>
         </li>
 
         <li class="list-group-item">
-          <a href="http://fb.com/moinakbarali">Articles</a>
+          <a href="">Related-Topic 9</a>
         </li>
 
         <li class="list-group-item">
-          <a href="http://fb.com/moinakbarali">News</a>
+          <a href="">Related-Topic 10</a>
         </li>
 
         <li class="list-group-item">
-          <a href="http://fb.com/moinakbarali">Newsletters</a>
+          <a href="">Related-Topic 11</a>
         </li>
 
         <li class="list-group-item">
-          <a href="http://fb.com/moinakbarali">Comments</a>
+          <a href="">Related-Topic 12</a>
         </li>
 
-        <li class="list-group-item">
-          <a href="http://fb.com/moinakbarali">News</a>
-        </li>
+        
 
-        <li class="list-group-item">
-          <a href="http://fb.com/moinakbarali">Newsletters</a>
-        </li>
-
-        <li class="list-group-item">
-          <a href="http://fb.com/moinakbarali">Comments</a>
-        </li>
-
-        <li class="list-group-item">
-          <a href="http://fb.com/moinakbarali">News</a>
-        </li>
-
-        <li class="list-group-item">
-          <a href="http://fb.com/moinakbarali">Newsletters</a>
-        </li>
-
-        <li class="list-group-item">
-          <a href="http://fb.com/moinakbarali">Comments</a>
-        </li>
 
       </ul>
     </aside>
